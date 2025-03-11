@@ -1,0 +1,160 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Create a flex container for the two maps */
+#maps-container {
+  display: flex;
+  justify-content: center;  /* Center the maps horizontally */
+  align-items: flex-start;  /* Align maps at the top */
+  width: 100%;  /* Make sure the container spans the entire width */
+}
+
+/* Styling for the maps */
+#map2, #map {
+  width: 45vw;  /* Adjust width to make maps side by side */
+  height: 75vh; /* Adjust height to make the maps taller */
+  border: 2px solid #ccc;
+  margin: 10px; /* Add space between maps */
+}
+
+#map3, #map4 {
+  width: 60%;
+  height: 700px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* CSS for controlling image size in popup */
+.popup-image {
+  width: 50%;  /* Set the image width to 50% of the popup */
+  max-width: 100px;  /* Ensure the image doesn't grow too large */
+  margin-top: 5px;  /* Add a small margin above the image */
+  cursor: zoom-in;  /* Change the cursor to indicate the image can be zoomed */
+}
+
+/* Prevent the image from expanding when clicked */
+.leaflet-popup-content img {
+  max-width: 100% !important;  /* Prevent image from expanding beyond container */
+  width: 100% !important;  /* Prevent image from expanding beyond container */
+  height: auto !important;  /* Maintain aspect ratio */
+}
+
+/* Optional: Add styling to disable scaling on click */
+.leaflet-popup-content img:active {
+  cursor: default;  /* Remove zoom-in cursor when image is clicked */
+  transform: none !important;  /* Prevent image scaling after click */
+}
+
+
+/* Container for the image and text below the maps */
+#image-container {
+  margin-top: 30px;  /* Add space above the image */
+  text-align: center;  /* Center the image and text */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  /* Ensure content is centered horizontally */
+  align-items: center;  /* Align items vertically in the center */
+}
+
+#rate-image {
+  width: 80%;  /* Increase the width as needed (adjust percentage) */
+  max-width: 800px;  /* Increase max-width to allow for a larger image */
+  margin-right: 15px;  /* Space between image and text */
+  margin-bottom: 10px;  /* Space below the image */
+}
+
+
+#image-text {
+  font-size: 16px;
+  font-family: Georgia, serif;
+  color: #333;
+  margin: 0.5;
+  padding: 5px;
+  line-height: 1.4;  /* Reduce the space between lines */
+  width: 80%;
+  max-width: 600px;
+  word-wrap: break-word;
+}
+
+
+/* Style for the zoom container */
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style for the image */
+.zoom-image {
+  width: 100%;
+  max-width: 800px;  /* Make sure the image fits */
+  transition: transform 0.3s ease; /* Smooth zoom transition */
+  cursor: pointer; /* Indicate the image is clickable */
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+#close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+/* Image container styles */
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom-image {
+  width: 100%;
+  transition: transform 0.25s ease; /* Smooth transition for zoom effect */
+}
+
+#rate-image {
+  width: 80%;  /* Adjust as needed */
+  max-width: 800px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+#image-text {
+  font-size: 16px;
+  font-family: Georgia, serif;
+  color: #333;
+}

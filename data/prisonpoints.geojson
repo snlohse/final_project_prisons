@@ -1,0 +1,360 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.492459, 37.944493]
+        },
+        "properties": {
+          "name": "San Quentin",
+          "image": "images/sanquen.png",
+          "capacity":"3084",
+          "population":"3542",
+          "percentCapacity":"114.9",
+          "date":"January 31, 2023",
+          "superfund":"n/a"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.157602, 38.690747]
+        },
+        "properties": {
+          "name": "Folsom State Prison",
+          "image": "images/folsom1.png",
+          "capacity": "2065",
+          "population": "2513",
+          "percentCapacity": "121.7",
+          "date": "January 31, 2023",
+          "superfund":"n/a"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates":[-120.123374, 35.973698]
+        },
+        "properties": {
+            "name": "Avenal State Prison",
+            "image": "images/avenal.png",
+            "capacity": "2909",
+            "population": "4789",
+            "percentCapacity": "164.6",
+            "date": "February 7, 2024",
+            "superfund":"n/a"
+            
+        }
+      }, 
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-119.310413, 35.780715]
+        },
+        "properties":{
+            "name": "North Kern State Prison",
+            "image": "images/northkern.png",
+            "capacity": "2694",
+            "population": "4380",
+            "percentCapacity": "162.6",
+            "date": "January 31, 2023",
+            "superfund":"n/a"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-73.549330, 40.734666]
+        },
+        "properties":{
+            "name": "Nassau County Correctional Center",
+            "image": "images/nassau.png",
+            "capacity": "unavailable",
+            "population": "721",
+            "percentCapacity": "unavailable",
+            "date":"2020",
+            "superfund": "NEW CASSEL"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-76.830548, 42.69580]
+        },
+        "properties":{
+            "name":"Five Points Correctional Facility",
+            "image":"images/fivepoints.png",
+            "capacity":"unavailable",
+            "population":"991",
+            "percentCapacity":"unavailable",
+            "date":"2020",
+            "superfund":"SENECA ARMY DEPORT"
+        }
+      },        
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-88.983774, 37.661464]
+        },
+        "properties":{
+            "name":"U.S. Penitentiary, Marion",
+            "image":"images/marion.png",
+            "capacity":"unavailable",
+            "population":"1479",
+            "percentCapacity":"unavailable",
+            "date":"September 2023",
+            "superfund":"SANGAMO ELECTRIC DUMP/CRAB ORCHARD NATIONAL WILDLIFE REFUGE (USDOI)"            
+        }
+      },
+      
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-71.622779, 42.525001]
+        },
+        "properties":{
+            "name":"Federal Medical Center Devens",
+            "image":"images/fmcdevens.png",
+            "capacity":"unavailable",
+            "population":"972",
+            "percentCapacity":"unavailable",
+            "date":"2020",
+            "superfund":"FORT DEVENS"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-122.446296, 47.253912]
+        },
+        "properties":{
+            "name":"Pierce County Jail",
+            "image":"images/pierceco.png",
+            "capacity":"unavailable",
+            "population":"1344",
+            "percentCapacity":"unavailable",
+            "date":"2020",
+            "superfund":"COMMENCEMENT BAY, NEAR SHORE/TIDE FLATS"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-122.420855, 47.248551]
+        },
+        "properties":{
+            "name":"Tacoma Northwest Detention Center",
+            "image":"images/tacomanw.png",
+            "capacity":"unavailable",
+            "population":"781",
+            "percentCapacity":"unavailable",
+            "date":"2020",
+            "superfund":"COMMENCEMENT BAY, NEAR SHORE/TIDE FLATS"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates":[-122.328078, 47.603080]
+        },
+        "properties":{
+            "name":"King County Correction and Adult Detention Facilities",
+            "image":"images/kingco.png",
+            "capacity":"unavailable",
+            "population":"863",
+            "percentCapacity":"unavailable",
+            "date":"2020",
+            "superfund":"LOWER DUWAMISH WATERWAY"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-90.512141, 37.923456]
+        },
+        "properties":{
+          "name":"Eastern Receiption, Diagnostic & Correctional Center",
+          "image":"images/erdc.png",
+          "capacity":"2684",
+          "population":"2377",
+          "percentCapacity":"n/a",
+          "date":"2020",
+          "superfund":"BIG RIVER MINE TAILINGS/ST. JOE MINERALS CORP."
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-90.436139, 37.768462]
+        },
+        "properties":{
+          "name":"Farrington Correctional Center",
+          "image":"images/farrington.png",
+          "capacity":"2632",
+          "population":"2614",
+          "percentCapacity":"n/a",
+          "date":"2020",
+          "superfund":"BIG RIVER MINE TAILINGS/ST. JOE MINERALS CORP."
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-90.735619, 37.934855]
+        },
+        "properties":{
+          "name":"Potosi Correctional Center",
+          "image":"images/potosi.png",
+          "capacity":"800",
+          "population":"900",
+          "percentCapacity":"125",
+          "date":"2020",
+          "superfund":"WASHINGTON COUNTY LEAD DISTRICT"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-95.939237, 41.252586]
+        },
+        "properties":{
+          "name":"Douglas County Dept. of Corrections",
+          "image":"images/douglas.png",
+          "capacity":"unavailable",
+          "population":"1111",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"OMAHA LEAD"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-84.592639, 43411383]
+        },
+        "properties":{
+          "name":"Central Michigan and St. Louis Correctional Facilities",
+          "image":"images/centralmich.png",
+          "capacity":"unavailable",
+          "population":"443",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"VELSICOL CHEMICAL CORP"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-80.546699, 35.620842]
+        },
+        "properties":{
+          "name":"Piedmont Correctional Center",
+          "image":"images/piedmont.png",
+          "capacity":"unavailable",
+          "population":"859",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"NATIONAL STARCH & CHEMICAL CORP."
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-74.037527, 40.873220]
+        },
+        "properties":{
+          "name":"Bergen County Jail & Annex",
+          "image":"images/bergen.png",
+          "capacity":"unavailable",
+          "population":"723",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"LOWER HACKENSACK RIVER"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-74.588906, 39.999744]
+        },
+        "properties":{
+          "name":"Mid-State Correctional Facility",
+          "image":"images/mid-state.png",
+          "capacity":"1754",
+          "population":"588",
+          "percentCapacity":"n/a",
+          "date":"2020",
+          "superfund":"MCGUIRE AIR FORCE BASE"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-75.017307, 40.032395]
+        },
+        "properties":{
+          "name":"Philadelphia Prison System Facilities",
+          "image":"images/ppfs.png",
+          "capacity":"unavailable",
+          "population":"816",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"CINNAMINSON TOWNSHIP"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-98.246062, 30.742188]
+        },
+        "properties":{
+          "name":"Texas Dept. of Criminal Justice - Ellen Hallbert Unit",
+          "image":"images/tdcj_ellenhu.png",
+          "capacity":"unavailable",
+          "population":"680",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"MAIN STREET GROUND WATER PLUME"
+        }
+      },
+      {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[-95.449085, 30.335636]
+        },
+        "properties":{
+          "name":"Joe Corley Detention Center, Montgomery County Jail",
+          "image":"images/corley.png",
+          "capacity":"unavailable",
+          "population":"742",
+          "percentCapacity":"unavailable",
+          "date":"2020",
+          "superfund":"UNITED CREOSOTING CO."
+        }
+      }
+    ]
+  }
+  

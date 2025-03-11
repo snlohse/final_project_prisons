@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US State Prison Populations</title>
+  <link href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="data/us-states.js"></script>
+</head>
+
+<body>
+
+  <div style="margin: 40px;">
+    <p>The United States has the highest rate of incarceration, more than ANY other nation in the world. Most recent figures show that there are 1.9
+        million people locked up in 1,566 state prisons, 98 federal prisons, 3,116 local
+        jails, 1,323 juvenile correctional facilities, 142 immigration detention facilities, and 80
+        Indian country jails. This figure does not take into account those individuals currently incarcerated in military prisons, civil commitment centers, state
+        psychiatric hospitals, or prisons located in U.S. territories. The prison industrial complex costs at least $185 billion annually (Sawyer & Wagner, 2024).
+    </p>
+  </div>
+
+  <!-- Container to hold the two maps side by side -->
+  <div id="maps-container">
+    <div id="map2"></div>
+    <div id="map"></div>
+  </div>
+
+  <!-- Image and Text Section Below Maps -->
+  <div id="image-container" class="zoom-container">
+    <img src="images/rateInc50y.png" alt="Image description" id="rate-image" class="zoom-image">
+    <p id="image-text">Since 1980, the incarceration population has grown nationwide in every U.S. state. Analyzing the decade-by-decade rate of change reveals notable trends. Between 1990 and 2000, all states experienced positive growth, with South Dakota seeing the highest increase at 16%. The pace of change has varied over time, with 33 states reporting growth between 1980 and 1990, and all but five states seeing increases between 2000 and 2010.
+    A significant shift occurred between 2010 and 2020, when incarceration rates declined in 48 out of 50 states. However, this trend did not persist, as half of all states saw an increase between 2020 and 2023. Over the past half-century, the rate of change has ranged from 1.5% to 6.3%, with no state experiencing an overall decline. The chart to the left illustrates each state's population growth per capita. Data provided by the Prison Policy Initiative and the U.S. Census Bureau. </p>
+  </div>
+
+  <!-- Modal for clicking the image to view larger -->
+  <div id="zoom-modal" class="modal">
+    <span class="close" id="close-modal">&times;</span>
+    <img id="modal-image" class="modal-content" src="" alt="Image to View">
+  </div>
+
+  <!-- Container for map 3 - point location map-->
+  <div id="map3"></div>
+
+
+
+
+  <script src="js/main.js"></script>
+  <script src="js/main2.js"></script>
+
+
+
+  <script src="js/main3.js"></script>
+</body>
+</html>
